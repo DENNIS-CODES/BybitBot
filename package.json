@@ -1,0 +1,24 @@
+{
+  "name": "btc-fast-short-bot",
+  "version": "1.0.0",
+  "description": "this bot short orders into bybit based on live market data received in google sheet",
+  "main": "index.ts",
+  "author": "Dennis Mwangi",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@types/google-spreadsheet": "^3.1.5",
+    "axios": "^0.25.0",
+    "bybit-api": "^2.1.8",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "google-spreadsheet": "^3.2.0",
+    "mongodb": "^4.3.1",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.5.5"
+  }
+}
