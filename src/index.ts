@@ -37,7 +37,7 @@ const Main = async () => {
 
     let timestamp = data.trade_time_ms;
     let diff = timestamp - prev_timestamp;
-    if (diff > 10_000) {
+    if (diff > 3_000) {
       gs.updateCell(data.price);
       prev_timestamp = timestamp;
       console.log("data", timestamp, { diff });
